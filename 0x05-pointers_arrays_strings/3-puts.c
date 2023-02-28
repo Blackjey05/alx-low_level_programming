@@ -9,5 +9,10 @@
  */
 void _puts(char *str)
 {
-	_puts(str);	
+	while(*str)
+	{
+		putchar(*str);
+		str++;
+	}
+		
 }
