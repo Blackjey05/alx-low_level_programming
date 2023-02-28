@@ -4,7 +4,7 @@
 
 /**
  *_strlen -calculates the length of a string
- *
+ *@str: string to be calculated
  * Return: Always 0
  */
 int _strlen(char *str)
@@ -15,5 +15,5 @@ int _strlen(char *str)
  		length++;
  		str++;
 	}
-	return length;
+	return (length);
 }
