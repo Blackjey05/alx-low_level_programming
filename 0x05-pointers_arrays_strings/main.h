@@ -4,3 +4,4 @@ int _strlen(char *s);
 void _puts(char *str);
 int _putchar(char c);
 int puts(const char *s);
+void print_rev(char *s);
