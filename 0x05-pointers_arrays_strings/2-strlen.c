@@ -3,16 +3,17 @@
 #include<string.h>
 
 /**
- * strlen -calculates the length of a string
+ *_strlen -calculates the length of a string
  *
  * Return: Always 0
  */
 int _strlen(char *str)
 {
-  int length = 0;
-  while (*str != '\0') {
-    length++;
-    str++;
-  }
+	 int length = 0;
+	 while (*str != '\0')
+	 {
+ 		 length++;
+ 		 str++;
+	 }
   return length;
 }
