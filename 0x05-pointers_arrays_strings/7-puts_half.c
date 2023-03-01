@@ -8,6 +8,6 @@ void puts_half(char *str)
 	
 	if (length % 2 != 0) half_length += 1;
 
-	*str = *str + half_length;
+	str = str + half_length;
 	_putchar(*str);
 }
