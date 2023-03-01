@@ -3,7 +3,7 @@
 
 /**
  * puts2 -prints every other character of a string
- * @str - a place holder for the string to be looked at
+ * @str:  a place holder for the string to be looked at
  *
  * Return: nothing
  */
