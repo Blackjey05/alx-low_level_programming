@@ -1,12 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
 
-/*
- * main - Entry point
+/**
+ *main - is a printing function
  *
- * Return: Always 0 (Success)
+ * Return: (0) Success
  */
 int main(void)
 {
-	printf("_putchar \n");
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+
 	return (0);
 }
