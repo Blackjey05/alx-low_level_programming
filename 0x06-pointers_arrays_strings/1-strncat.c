@@ -2,9 +2,12 @@
 #include<string.h>
 
 /**
+ *srncat - concatenates two strings
+ *@dest - place holder for the string
+ *@@src - the second part of the string to be added
+ *@i - integer value
  *
- *
- *
+ *Return: (0) Success
  */
 char *_strncat(char *dest, char *src, int n)
 {
