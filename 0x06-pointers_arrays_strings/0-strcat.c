@@ -6,13 +6,18 @@
  *@dest:place holder for the entire string
  *@src:holds the part to be added
  *
- *Return: (0) Success
+ *
+ *Return: a pointer dest
  */
 char *_strcat(char *dest, char *src)
 {
-	strcat(dest, src);
+	int index = 0, dest_len = 0;
 
-	putchar(*dest);
+	while (dest[index++])
+		dest_len++;
 
-	return (0);
+	for (index = 0; src[index]; index++)
+		dest[dest_len++] = src[index];
+
+	return (dest);
 }
