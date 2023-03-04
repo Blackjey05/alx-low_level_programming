@@ -5,7 +5,6 @@
 /**
  * main - Determines if a number is +ve or -ve
  *
- * 
  *Return: Always 0 (Success)
  */
 int main(void)
@@ -20,7 +19,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("%d is zer\n", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
