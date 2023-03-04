@@ -1,18 +1,19 @@
 #include"main.h"
 
 /**
- *print_array - prints the reverse of the array
+ *reverse_array - prints the reverse of the array
  *
  *
  *Return: nothing
  */
-void print_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
-	int i, j, temp;
-	for (i = 0, j = n - 1; i < j; i++, j--)
+	int tmp, index;
+
+	for (index = n - 1; index >= n / 2; index--)
 	{
-		temp = a[i];
-		a[i] = a[j];
-		a[j] = temp;
+		tmp = a[n - 1 - index];
+		a[n - 1 - index] = a[index];
+		a[index] = tmp;
 	}
 }
