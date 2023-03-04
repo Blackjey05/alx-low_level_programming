@@ -6,14 +6,20 @@
  *@dest - where the string is to be copied to
  *@src: holds characters for execution
  *
- *Return: (0) Success
+ *Return: a pointer to the resulting string dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	strncpy(dest, src, 5);
-	dest[5] = '\0';
-	
-	putchar(*dest);
+	int index = 0, src_len = 0;
 
-	return (0);
+	while (src[index++])
+		src_len++;
+
+	for (index = 0; src[index] && index < n; index++)
+		dest[index] = src[index];
+
+	for (index = src_len; index < n; index++)
+		dest[index] = '\0';
+
+	return (dest);
 }
