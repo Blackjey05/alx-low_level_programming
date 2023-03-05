@@ -12,5 +12,6 @@ int _isdigit(int c);
 int _isupper(int c);
 int _putchar(char c);
 void print_diagonal(int n);
+void print_number(int n);
 
 #endif
