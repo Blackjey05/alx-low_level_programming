@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include"main.h"
+
+/*factorial: a function that reurns the factorial of a number
+ *@n - placeholder for an integer
+ *
+ *Return: factorial of an integer and -1 on error
+ */
+int factorial(int n)
+{
+	if(n <= 1)
+		return 1;
+	if(n < 0)
+		return -1;
+	return(n) * factorial(n - 1);
+}
