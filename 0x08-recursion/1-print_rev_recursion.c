@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include"main.h"
-/*_print_rev_recursion: prints the string in reverse
+/*
+ *print_rev_recursion: prints the string in reverse
  *@s- placeholder for string
  *_putchar:prints character
  */
