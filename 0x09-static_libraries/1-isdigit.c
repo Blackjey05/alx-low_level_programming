@@ -1,1 +1,5 @@
-int _isdigit(int c);
+#include<stdio.h>
+#include"main.h"
+
+int _isdigit(int c)
+{}

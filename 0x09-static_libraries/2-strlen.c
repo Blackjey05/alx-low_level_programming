@@ -1,1 +1,5 @@
-int _strlen(char *s);
+#include<stdio.h>
+#include"main.h"
+
+int _strlen(char *s)
+{}
